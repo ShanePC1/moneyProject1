@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet'>
+	 <link rel="stylesheet" href="../styles/index.css">
+	<title>Finance Manager</title>
+</head>
+<body>
+<div class="container", id="mainContainer">
+	 <div class="row">
+	 	<div class="column" id="imgSpace">
+	 		<img id="mrHelperImg" src="../images/TEST.png">
+	 	</div>
+	 	<div class="column" id="intro">
+	 		<p>
+	 			Alright so you have __ in your checking currnetly.
+	 		</p>
+	 		<p>
+	 			Lets go ahead and get ALLLLL your other bills entered. 
+	 		</p>
+	 		<p> I've added a couple defaults for things most everyone has to pay each month.</p>
+	 		<p> But you can add more below!</p>
+	 	</div>
+	 </div>	
+	 	<div class="row">
+	 		<div class="column"><br></div>
+	 		<div class="column, bills">
+				<form class="bold" id='monthlyBillForm'> 
+					<div class="form-group" >
+						<label >Enter the following: Bill Type, Due Date and Current Amt</label>
+						<div class="row">
+							<select>
+								<option value="creditCard">Current Credit Card</option>
+								<option value="creditPending">Pending Credit Card</option>
+								<option value="FPL">FPL</option>
+								<option value="WiFi">WiFi</option>
+								<option value="Rent">Rent</option>
+								<option value="Water">Water</option>
+								<option value="Car Insurance">Car Insurance</option>
+							</select>
+							<input type="date">
+							<input type="number" class="form-control currency monthlyBillInput"  placeholder="$0.00" step=".01">
+						</div>		
+					</div>
+					<button type="">Add More?</button>
+					<button type="submit"  class="btn btn-primary">Next</button>
+				</form>
+				<p> Don't worry everything selected as reoccurring will auto populate next month!</p>
+	 		</div>
+	 		<div class="column"><br></div>
+	 	</div>
+
+</div>
+</body>
+<script type="text/javascript" src="../controller/index.js"></script>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet'>
+	 <link rel="stylesheet" href="../styles/index.css">
+	<title>Finance Manager</title>
+</head>
+<body>
+<div class="container", id="mainContainer">
+	 <div class="row">
+	 	<div class="column" id="imgSpace">
+	 		<img id="mrHelperImg" src="../images/TEST.png">
+	 	</div>
+	 	<div class="column" id="intro">
+	 		<p>
+	 			Whoops Almost forgot.
+	 			Lets get your income information too!
+	 		</p>
+	 	</div>
+	 </div>
+	<div class="row">
+		<div class="column"><br></div>
+		<div class="column, bills">
+			<form class="bold" id='monthlyBillForm'> 
+				<div class="form-group" >
+				<label >Choose how you get paid</label>
+					<select>
+						<option value="bi-weekly">Bi-Weekly </option>
+						<option value="monthly">Monthly </option>
+						<option value="weekly">Weekly </option>
+						<option value="hourly">Hourly</option>
+					</select>	
+				<button type="submit"  class="btn btn-primary">Next</button>	
+				</div>
+			</form>
+		</div>
+		<div class="column"><br></div>
+	</div>
+	<div class="row">
+		<div class="column">
+<!-- select  options will change what can be entered below is bi weekly monthly would have one hourly would have an enter hours per week and how many weeks and than curreny JS will calc-->
+			<label>First Pay</label>
+			<input type="number" class="form-control currency incomeAmount"   placeholder="$0.00" step=".01">
+		</div>
+		<div class="column">	
+			<label>Second Pay</label>
+			<input type="number" class="form-control currency incomeAmount"   placeholder="$0.00" step=".01">
+		</div>
+	</div>
+		 <div class="row">
+	 	<div class="column"><br></div>
+	 </div>
+</div>
+</body>
+</html>
+

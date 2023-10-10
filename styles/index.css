@@ -1,0 +1,56 @@
+body{
+	background-color: #AEDADA;
+	    font-family: 'Oxygen';
+/*	    font-size:calc((var(--h) *10));*/
+/*	    font-size: 95%;make font dynamic*/
+font-size: 2.5vh;
+	        }
+
+.container {
+	background-color: #E3F1F1;
+  text-align: center;
+box-shadow: 0 0 10px #000;
+border-radius: 25px;
+   width:75%;
+/*height: 500px;*/
+margin-left:12.5%;
+margin-top: 10%;
+/*  height:var(--h);*/
+  
+}
+
+.bills{
+
+}
+
+#imgSpace{
+	float:left;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+#mrHelperImg{
+	align-items: left;
+	width: 75%;
+}
+#monthlyImg{
+	float: left;
+	width: 33%;
+}
+.incomeAmount{
+	margin: 10%;
+	margin-bottom: 0%;
+
+}
