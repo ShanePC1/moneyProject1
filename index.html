@@ -1,1 +1,51 @@
-<meta http-equiv="refresh" content="0;url=./view/index.html" />
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet'>
+
+	<link rel="stylesheet" href="./styles/index.css">
+	<title>Finance Manager</title>
+</head>
+<body>
+
+<div class="container", id="mainContainer">
+	 <div class="row">
+	 	<div class="column" id="imgSpace">
+	 		<img id="mrHelperImg" src="./images/TEST.png">
+	 	</div>
+	 	<div class="column" id="intro">			
+	 		<p>
+	 			Hi, there!
+
+	 		</p>
+
+	 		<p>
+	 			Together we're gonna do some budegting!
+	 		</p>
+	 		<p>
+	 			Lets start by entering in your current checking acount amount below!
+	 		</p>
+	 	</div>
+	 	<div class="column"><br></div>
+	 	<div class="row">
+	 		<div class="column" id="checking">
+				<form class="bold" id='currentCheckingAmtForm'> 
+					<div class="form-group" >
+						<label >Current Checking Account Amount</label>
+						<input type="number" class="form-control currency" id="currentCheckingAmtInput"  placeholder="$0.00" step=".01">
+						<button type="submit"  class="btn btn-primary">Next</button>
+					</div>
+					
+				</form>
+	 		</div>
+	 	</div>
+	 </div>
+	 <div class="row">
+	 	<div class="column"><br></div>
+	 </div>
+</div>
+</body>
+<script type="text/javascript" src="./controller/index.js"></script>
+</html>
