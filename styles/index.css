@@ -55,8 +55,18 @@ margin-top: 10%;
 
 }
 
+.dataEntryText,#incomeEntryText{
+	padding-top: 10%;
+
+}
+
 @media all and (max-device-width: 844px) {
   body {
     font-size: 18px;
   }
+  .dataEntryText{
+	padding-top: 1%;
+	padding-right: 5%;
+
+}
 }
