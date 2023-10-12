@@ -4,16 +4,17 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>	
 	 <link rel="stylesheet" href="../styles/index.css">
 	<title>Finance Manager</title>
 </head>
-<body>
+<body data-title="dataEntry">
 <div class="container", id="mainContainer">
 		 <div>
 		 	<img id="monthlyImg" src="../images/TEST.png">
 		 </div>
 		 <div class="dataEntryText">
-		 <p>
+		 <p class="pTagChkAmt">
 	 			Alright so you have __ in your checking currnetly.
 	 		</p>
 	 		<p>
@@ -43,7 +44,7 @@
 							<input type="number" class="form-control currency monthlyBillInput"  placeholder="$0.00" step=".01">
 						</div>		
 					</div>
-					<button type="">Add More?</button>
+					<button type="button">Add More?</button>
 					<button type="submit"  class="btn btn-primary">Next</button>
 				</form>
 				<p> Don't worry everything selected as reoccurring will auto populate next month!</p>
